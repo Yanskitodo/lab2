@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>Hi my name is Euri Marxell P. lascano</h1>
-<p>I'm from the section of BSIT-MI211</p>
-
-<p id="demo"></p>
-
-<script>
-const hobbies = ["Chess", "Blue", "Music", "OPM"];
-document.getElementById("demo").innerHTML = hobbies.toString();
-</script>
+<p style="text-align: center;"><span style="color: #000000; background-color: #ffff00;">Euri Marxell P. Lascano</span></p>
+<h1 style="text-align: center;"><span style="color: #000000; background-color: #ffff00;">Euri</span></h1>
+<p style="text-align: center;"><span style="color: #ffffff; background-color: #0000ff;">2021-140629</span></p>
+<p style="text-align: center;"><span style="background-color: #ffff00;">BSIT-MI211</span></p>
+<p style="text-align: right;"><img style="font-size: 14px; display: block; margin-left: auto; margin-right: auto;" src="https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/318246022_5827743963939036_2227833352607504001_n.jpg?_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=09cbfe&amp;_nc_eui2=AeFeSd_cVv1VXFlxh5GfnA_EF3rBAWdU1LwXesEBZ1TUvAuzjPwtRxc-XrS14qkdjS-cRrl18arOuweFaDJ4bQ7E&amp;_nc_ohc=WHt57jwFyGUAX8_AtHY&amp;_nc_ht=scontent.fmnl33-1.fna&amp;oh=00_AfA4749hAl9FeLQaAKJf6j6nPUOnU47iAH5AXDcubzbOIQ&amp;oe=63EC0248" alt="facebook profile picture" width="144" height="144" /></p>
+<table style="width: 100%; border-collapse: collapse; background-color: blue;" border="1">
+<tbody>
+<tr>
+<td style="width: 25%; text-align: center;"><span style="background-color: #ffff00;">Chess</span></td>
+<td style="width: 25%; text-align: center;"><span style="background-color: #ffff00;">Blue</span></td>
+<td style="width: 25%; text-align: center;"><span style="background-color: #ffff00;">Music</span></td>
+<td style="width: 25%; text-align: center;"><span style="background-color: #ffff00;">OPM</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: right;">&nbsp;</p>
+<p style="text-align: right;">&nbsp;</p>
+<p style="text-align: right;">&nbsp;</p>
   
 <head>
 <style>
@@ -120,9 +124,9 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "myDBwebprogmi211";
+	$username = "webprogmi211";
+	$password = "webprogmi211";
+	$dbname = "webprogmi211";
 	
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
